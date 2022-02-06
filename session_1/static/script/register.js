@@ -1,18 +1,3 @@
-// let names = [ 'name1', 'name2', 'name3', 'name4' ];
-// function displayNames(arr) {
-// 	for (i = 0; i < arr.length; i++) {
-// 		console.log(names[i]);
-// 	}
-// }
-// displayNames(names);
-
-// let student={
-//   theName:"Trey",
-//   age:80,
-//   student:true,
-//   grade:"A-"
-// }
-// console.log(student)
 let salon={
   theName:'Pets',
   address:{
@@ -56,7 +41,7 @@ let pets = [{
   service:'Grooming',
   owner:'Nik'
 }]
-alert(`number of pets: ${pets.length}`)
+
 function consolePets(petRegister){
   for(i=0;i<petRegister.length;i++){
     console.log(petRegister[i].petName)
